@@ -1,0 +1,60 @@
+baseurl         = "https://devops-project-selim.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Selim Mokni Site"
+  subtitle    = "Devops project"
+
+  cover       = "img/blog-cover.jpg"
+  description = "This website's context is devops project."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "selimmokni"
+  fbName = "selim.mokni.ctln"
+  githubName = "selimmokni"
+
+  logo = "hugo-logo.png"
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "SM"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Espoo, FI"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Aalto student.."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Go"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "Food"
+  url = "/categories/food/"
+  weight = 99
+
+[[menu.main]]
+  name = "Google"
+  url = "https://google.com/"
+  weight = 95
